@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome3",
+    "definitions": {
+        "Welcome3": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "students": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Student"
+                    }
+                }
+            },
+            "required": [
+                "students"
+            ],
+            "title": "Welcome3"
+        },
+        "Student": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "gender": {
+                    "type": "string"
+                },
+                "physics": {
+                    "type": "integer"
+                },
+                "maths": {
+                    "type": "integer"
+                },
+                "english": {
+                    "type": "integer"
+                },
+                "id": {
+                    "type": "string",
+                    "format": "integer"
+                }
+            },
+            "required": [
+                "english",
+                "gender",
+                "id",
+                "maths",
+                "name",
+                "physics"
+            ],
+            "title": "Student"
+        }
+    }
+}
