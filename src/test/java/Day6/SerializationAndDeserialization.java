@@ -1,11 +1,6 @@
 package Day6;
 
-import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
-
 import org.testng.annotations.Test;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

@@ -1,14 +1,9 @@
 package Day5;
 
-import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
-
+import static io.restassured.RestAssured.given;
 import java.util.List;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 

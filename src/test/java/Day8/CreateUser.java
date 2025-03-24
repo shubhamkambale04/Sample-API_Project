@@ -12,10 +12,10 @@ import io.restassured.http.ContentType;
 
 public class CreateUser{
 	
+	static int id;
 	@Test(priority = 1)
 	void userCreation(ITestContext context) 
 	{
-		
 		Faker faker=new Faker();
 
 		JSONObject data=new JSONObject();
@@ -27,7 +27,7 @@ public class CreateUser{
 		String bearerToken="Bearer 71fe8823f998f45516963b01ec72f2f06fa64a2367d687c38619e6fabba5c60c";
 		
 		//Response res=given()
-		int id=given()
+		id=given()
 			.contentType(ContentType.JSON)
 			.header("Authorization", bearerToken)
 			.body(data.toString())

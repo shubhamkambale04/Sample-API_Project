@@ -19,13 +19,17 @@ public class FakerDataGenerator {
 		String password=faker.internet().password();
 		String phno=faker.phoneNumber().phoneNumber();
 		String email=faker.internet().emailAddress();
-		
 		String business=faker.business().creditCardNumber();
 		
 		System.out.println(name);
+		System.out.println(firstName);
+		System.out.println(lastName);
+		System.out.println(streetAddress);
+		System.out.println(username);
+		System.out.println(password);
+		System.out.println(phno);
+		System.out.println(email);
 		System.out.println(business);
-		
-		
+			
 	}
-
 }

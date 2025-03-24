@@ -1,11 +1,9 @@
 package Day3;
 
+import static io.restassured.RestAssured.given;
+import java.util.Map;
 import org.testng.annotations.Test;
 import io.restassured.response.Response;
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
-
-import java.util.Map;
 
 
 public class CookiesDemo {
@@ -45,6 +43,7 @@ public class CookiesDemo {
             String cookie_value1 = cookie_values.get(key);
             String cookie_value2 =res.getCookie(key);
             // Print the key and value
+            System.out.println("Key: " + key + ", Value: " + cookie_value1);
             System.out.println("Key: " + key + ", Value: " + cookie_value2);
         }
 	}

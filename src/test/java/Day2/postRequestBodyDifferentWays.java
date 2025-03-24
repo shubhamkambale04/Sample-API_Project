@@ -19,7 +19,7 @@ public class postRequestBodyDifferentWays {
     // 1) Post request body creation using HashMap
     //@Test(priority = 1)
     void testPostHashMap() {
-        HashMap data = new HashMap();
+        HashMap<Object, Object> data = new HashMap<>();
         data.put("name", "Shubham");
         data.put("gender", "Male");
         data.put("physics", 88);
@@ -27,8 +27,8 @@ public class postRequestBodyDifferentWays {
         data.put("english", 78);
 
         // If an array is required
-        // String[] courseArr = {"C", "C++"};
-        // data.put("courses", courseArr);
+        //String[] courseArr = {"C", "C++"};
+        //data.put("courses", courseArr);
 
         id = given().contentType(ContentType.JSON).body(data)
         		.when().post("http://localhost:3000/students")

@@ -1,11 +1,8 @@
 package Day7;
 
-import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
-
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
 import org.testng.annotations.Test;
-
 import io.restassured.http.ContentType;
 
 public class Authentication {

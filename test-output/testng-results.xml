@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-26T17:06:28 IST" name="Suite" finished-at="2024-12-26T17:06:39 IST" duration-ms="10829">
+  <suite started-at="2025-03-24T10:47:23 IST" name="Suite" finished-at="2025-03-24T10:47:36 IST" duration-ms="13305">
     <groups>
     </groups>
-    <test started-at="2024-12-26T17:06:28 IST" name="Test" finished-at="2024-12-26T17:06:39 IST" duration-ms="10829">
+    <test started-at="2025-03-24T10:47:23 IST" name="Test" finished-at="2025-03-24T10:47:36 IST" duration-ms="13305">
       <class name="Day8.UpdateUser">
-        <test-method signature="userUpdate(org.testng.ITestContext)[pri:3, instance:Day8.UpdateUser@4c12331b]" started-at="2024-12-26T17:06:35 IST" name="userUpdate" finished-at="2024-12-26T17:06:37 IST" duration-ms="1878" status="PASS">
+        <test-method signature="userUpdate(org.testng.ITestContext)[pri:3, instance:Day8.UpdateUser@55183b20]" started-at="2025-03-24T10:47:32 IST" name="userUpdate" finished-at="2025-03-24T10:47:34 IST" duration-ms="2057" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@cad498c]]>
+                <![CDATA[org.testng.TestRunner@157853da]]>
               </value>
             </param>
           </params>
@@ -20,11 +20,11 @@
         </test-method> <!-- userUpdate -->
       </class> <!-- Day8.UpdateUser -->
       <class name="Day8.GetUser">
-        <test-method signature="userGet(org.testng.ITestContext)[pri:2, instance:Day8.GetUser@1165b38]" started-at="2024-12-26T17:06:33 IST" name="userGet" finished-at="2024-12-26T17:06:35 IST" duration-ms="2211" status="PASS">
+        <test-method signature="userGet(org.testng.ITestContext)[pri:2, instance:Day8.GetUser@1bd4fdd]" started-at="2025-03-24T10:47:29 IST" name="userGet" finished-at="2025-03-24T10:47:32 IST" duration-ms="3238" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@cad498c]]>
+                <![CDATA[org.testng.TestRunner@157853da]]>
               </value>
             </param>
           </params>
@@ -33,11 +33,11 @@
         </test-method> <!-- userGet -->
       </class> <!-- Day8.GetUser -->
       <class name="Day8.DeleteUser">
-        <test-method signature="userDelete(org.testng.ITestContext)[pri:4, instance:Day8.DeleteUser@7586beff]" started-at="2024-12-26T17:06:37 IST" name="userDelete" finished-at="2024-12-26T17:06:39 IST" duration-ms="2553" status="PASS">
+        <test-method signature="userDelete(org.testng.ITestContext)[pri:4, instance:Day8.DeleteUser@4f83df68]" started-at="2025-03-24T10:47:34 IST" name="userDelete" finished-at="2025-03-24T10:47:36 IST" duration-ms="2502" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@cad498c]]>
+                <![CDATA[org.testng.TestRunner@157853da]]>
               </value>
             </param>
           </params>
@@ -46,11 +46,11 @@
         </test-method> <!-- userDelete -->
       </class> <!-- Day8.DeleteUser -->
       <class name="Day8.CreateUser">
-        <test-method signature="userCreation(org.testng.ITestContext)[pri:1, instance:Day8.CreateUser@6a6cb05c]" started-at="2024-12-26T17:06:28 IST" name="userCreation" finished-at="2024-12-26T17:06:33 IST" duration-ms="4113" status="PASS">
+        <test-method signature="userCreation(org.testng.ITestContext)[pri:1, instance:Day8.CreateUser@67c27493]" started-at="2025-03-24T10:47:23 IST" name="userCreation" finished-at="2025-03-24T10:47:29 IST" duration-ms="5410" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@cad498c]]>
+                <![CDATA[org.testng.TestRunner@157853da]]>
               </value>
             </param>
           </params>

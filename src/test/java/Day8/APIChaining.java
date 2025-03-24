@@ -8,8 +8,6 @@ public class APIChaining {
 	
 	public Faker faker;
 	public JSONObject data;
-	public String bearerToken;
-
 	
 	// post--> pre request data-->post-->post request(set variable)--->
 	//get--->post request validate--->
@@ -25,7 +23,8 @@ public class APIChaining {
 	data.put("email", faker.internet().emailAddress());
 	data.put("status", "Inactive");
 	
-	bearerToken="Bearer 71fe8823f998f45516963b01ec72f2f06fa64a2367d687c38619e6fabba5c60c";
+	String bearerToken="Bearer 71fe8823f998f45516963b01ec72f2f06fa64a2367d687c38619e6fabba5c60c";
+	System.out.println(bearerToken);
 
 	
 	}
